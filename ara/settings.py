@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-r77w(@r2$xqwlz43e+(r=r+_m*-fc$6y-1@7dj-ec#+0!e2#p6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aravind-profile.onrender.com']
 
 
 # Application definition
@@ -120,3 +120,4 @@ MEDIA_ROOT=BASE_DIR/'media/video'
 STATICFILES_DIRS=[
     BASE_DIR/"static/css",
 ]
+
